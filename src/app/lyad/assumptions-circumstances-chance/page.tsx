@@ -1,12 +1,11 @@
 import { Footer } from "@/app/components/Footer/Footer";
-import { HeaderBook } from "@/app/components/HeaderBook/HeaderBook";
-import Link from "next/link";
+import { Header } from "@/app/components/Header/Header";
 import React from "react";
 
 const BookIntroduction = () => {
   return (
     <>
-      <HeaderBook />
+      <Header />
       <div className="max-w-4xl mx-auto p-6 my-5 bg-white text-gray-800 rounded-lg shadow-lg">
         <h1 className="text-2xl font-semibold text-center mb-4">Предисловие</h1>
         <p className="text-lg leading-relaxed mb-4">
@@ -84,15 +83,12 @@ const BookIntroduction = () => {
           С уважением, автор - Андрей Кириченко.
         </p>
         <div className="mt-8 flex justify-between">
-          <Link href="/lyad" className="text-blue-600 hover:underline">
+          <a href="/lyad" className="text-blue-600 hover:underline">
             Все главы
-          </Link>
-          <Link
-            href="/lyad/cult-stob-dust"
-            className="text-blue-600 hover:underline"
-          >
+          </a>
+          <a href="#next-chapter" className="text-blue-600 hover:underline">
             Следующая глава
-          </Link>
+          </a>
         </div>
       </div>
       <Footer />
