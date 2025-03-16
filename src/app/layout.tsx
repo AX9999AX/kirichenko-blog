@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 lg:px-0`}
       >
+        <div id="background_wrap" />
         {children}
       </body>
     </html>
