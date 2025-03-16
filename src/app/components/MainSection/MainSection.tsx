@@ -10,9 +10,12 @@ export const MainSection = () => {
         <h1 className="text-5xl text-white font-bold">
           Кириченко Андрей Станиславович
         </h1>
-        <button className="mt-6 text-3xl p-2 uppercase text-[#CFBC9E] border border-[#481E00] bg-[#481E00]">
+        <a
+          href="tel:+380500114558"
+          className="mt-6 text-3xl p-2 uppercase text-[#CFBC9E] border border-[#481E00] bg-[#481E00]"
+        >
           Заказать звонок
-        </button>
+        </a>
       </main>
     </>
   );

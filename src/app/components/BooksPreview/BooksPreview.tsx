@@ -75,7 +75,7 @@ export const BooksPreview = () => {
               <div className="text-center md:text-left">
                 <a
                   className="text-xl font-semibold p-3 text-white border border-[#481E00] bg-[#481E00]"
-                  href="/lyad.pdf"
+                  href="/army.pdf"
                 >
                   Cкачать PDF
                 </a>
