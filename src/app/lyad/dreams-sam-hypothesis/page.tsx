@@ -272,10 +272,7 @@ const DreamsSamHypothesis = () => {
           <Link href="/lyad" className="text-blue-600 hover:underline">
             Все главы
           </Link>
-          <Link
-            href="/lyad/pride-bosota-matrix"
-            className="text-blue-600 hover:underline"
-          >
+          <Link href="/lyad" className="text-blue-600 hover:underline">
             Следующая глава
           </Link>
         </div>

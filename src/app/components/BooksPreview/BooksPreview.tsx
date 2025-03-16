@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 
 import Slider from "react-slick";
@@ -41,12 +40,12 @@ export const BooksPreview = () => {
                 раздражение, расстройство и без того слабой психики.
               </p>
               <div className="text-center md:text-left">
-                <Link
+                <a
                   className="text-xl font-semibold p-3 text-white border border-[#481E00] bg-[#481E00]"
-                  href="/lyad"
+                  href="/lyad.pdf"
                 >
-                  Читать
-                </Link>
+                  Cкачать PDF
+                </a>
               </div>
             </div>
             <div className="flex justify-center sm:col-span-1">
@@ -74,12 +73,12 @@ export const BooksPreview = () => {
                 общества, в котором я пребывал и пребываю.
               </p>
               <div className="text-center md:text-left">
-                <Link
+                <a
                   className="text-xl font-semibold p-3 text-white border border-[#481E00] bg-[#481E00]"
-                  href="/army"
+                  href="/lyad.pdf"
                 >
-                  Читать
-                </Link>
+                  Cкачать PDF
+                </a>
               </div>
             </div>
             <div className="flex justify-center sm:col-span-1">
